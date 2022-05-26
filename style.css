@@ -1,0 +1,121 @@
+/* /* *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background: #f5f5f5;
+}
+
+.container{
+    max-width: 960px;
+    margin: 100px auto;
+   
+}
+
+/* .calc{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width:max-content;
+    /* padding: 30px 10px 20px 10px; 
+} */
+
+
+
+ /* #display{
+    display: flex;
+    width: 80%;
+    padding: 30px 10px 20px 10px; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: right;
+
+
+} 
+
+
+
+.clickButtons{
+    display: grid;
+    font-size: 20px;
+    padding: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    border-radius: 15px;
+}
+
+.rad-degButton{
+    border-radius: -4px;
+    background-color: lightblue;
+    border-radius: 15px;
+
+}  */
+
+
+.container{
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    border: 10px 10px;
+
+}
+
+.buttons{
+    display: grid;
+    /* border-bottom: 1px solid #999; */
+    /* border-left: 1px solid #999; */
+    grid-template-columns: repeat(7, 1fr);
+    
+    /* gap: 45px 32px; */
+}
+
+.buttons > div {
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+}
+
+.button {
+     /* justify-content: center; */
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor:pointer;
+    margin: 5px;
+    padding: 0.01mm 20px 0.01mm 20px;
+    border-radius: 15px; 
+
+    
+    
+}
+
+#equal{
+    background-color: lightblue;
+    color: white;
+}
+
+.button:hover{
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
